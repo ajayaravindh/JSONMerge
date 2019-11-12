@@ -4,6 +4,20 @@ A Python Command line application to merge JSON files with support for maximum o
 
 _Developed and tested in **Linux** environment but this should work fine for Windows and Mac environments too as the **os** module of Python takes care of **compatability**_
 
+### Requirements
+- Python3
+- Python standard library
+- Click package - To create robust command line application ($pip install click - to install)
+
+### Usage
+- Clone and cd into this repo
+
+- **Help:** python src.py --help
+- python src.py [OPTIONS] PATH_TO_FOLDER INPUT_BASE_FILE_NAME
+	**Options**
+	- -o (or) --output-base -> OUTPUT BASE FILE NAME
+	- m (or) --max-file-size -> MAXIMUM_OUTPUT_FILE_SIZE
+
 ## Functional Requirements Coverage
 
  - [x] Accept **folder path**, **input file base name**, **output file base name**, **maximum file size**
