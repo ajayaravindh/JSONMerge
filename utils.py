@@ -127,7 +127,10 @@ def merge_json(root_key, json_files, output_base, max_file_size, output_path = "
 
 	if(completed == 0): # When the maximum file size if too small
 		print("Maximum file size is too short to hold any values")
+		return
 
 	if(last_write < completed):
 		with open(output_path + output_base + str(iter) + '.json', 'w', encoding='utf-8') as f:
 			f.write(str(new_json))
+
+	print("Write successful!")

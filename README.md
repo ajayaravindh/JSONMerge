@@ -16,8 +16,8 @@ _Developed and tested in **Linux** environment but this should work fine for Win
 - python src.py [OPTIONS] PATH_TO_FOLDER INPUT_BASE_FILE_NAME
 	
 	**Options**
-	- -o (or) --output-base -> OUTPUT BASE FILE NAME
-	- -m (or) --max-file-size -> MAXIMUM_OUTPUT_FILE_SIZE
+	- -o (or) --output-base -> OUTPUT BASE FILE NAME (Default name: output)
+	- -m (or) --max-file-size -> MAXIMUM_OUTPUT_FILE_SIZE (Defalut size: 1MB)
 
 By default it writes the the Output directory, but this can be changed in the function. The reason it was done this way is that the permissible inputs to the program were only the 4 listed in the first functional requirements.
 
@@ -25,6 +25,12 @@ By default it writes the the Output directory, but this can be changed in the fu
 
 - utils.py - Holds all the utility functions
 - src.py - Source file that needs to be executed
+
+## Sample Usage
+
+![With maximum file size limit](./Images/1.png)
+
+![With maximum file size limit and output base file name](./Images/2.png)
 
 ## Functional Requirements Coverage
 
