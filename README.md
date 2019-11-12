@@ -14,6 +14,7 @@ _Developed and tested in **Linux** environment but this should work fine for Win
 
 - **Help:** python src.py --help
 - python src.py [OPTIONS] PATH_TO_FOLDER INPUT_BASE_FILE_NAME
+	
 	**Options**
 	- -o (or) --output-base -> OUTPUT BASE FILE NAME
 	- m (or) --max-file-size -> MAXIMUM_OUTPUT_FILE_SIZE
