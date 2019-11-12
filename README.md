@@ -1,5 +1,5 @@
 # JSONMerge
-A Python Command line application to merge JSON files with support for maximum output file size.
+A Python command line application to merge JSON files with support for maximum output file size.
 
 
 _Developed and tested in **Linux** environment but this should work fine for Windows and Mac environments too as the **os** module of Python takes care of **compatability**_
@@ -17,7 +17,14 @@ _Developed and tested in **Linux** environment but this should work fine for Win
 	
 	**Options**
 	- -o (or) --output-base -> OUTPUT BASE FILE NAME
-	- m (or) --max-file-size -> MAXIMUM_OUTPUT_FILE_SIZE
+	- -m (or) --max-file-size -> MAXIMUM_OUTPUT_FILE_SIZE
+
+By default it writes the the Output directory, but this can be changed in the function. The reason it was done this way is that the permissible inputs to the program were only the 4 listed in the first functional requirements.
+
+## Files
+
+- utils.py - Holds all the utility functions
+- src.py - Source file that needs to be executed
 
 ## Functional Requirements Coverage
 
