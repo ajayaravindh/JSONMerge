@@ -2,7 +2,7 @@ import click
 import os
 import re
 import json
-from utils import *
+from utils import is_a_directory, get_matching_files, load_json, get_root_key, merge_json
 
 @click.command()
 @click.argument('path-to-folder', type = click.Path()) # Mandatory argument - Path to the directory that holds the input JSON files
